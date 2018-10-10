@@ -69,6 +69,11 @@ variable "opsman_image_url" {
   description = "Location of ops manager image on google cloud storage"
 }
 
+variable "optional_opsman" {
+  description = "Is an optional opsman instance needed"
+  default     = false
+}
+
 variable "optional_opsman_image_url" {
   type        = "string"
   description = "Location of ops manager image (to be used for optional extra instance) on google cloud storage"

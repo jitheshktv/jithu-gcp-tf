@@ -9,6 +9,7 @@ buckets_location = "US"
 opsman_storage_bucket_count = "1"
 create_gcs_buckets = true
 create_blobstore_service_account_key = true
+optional_opsman = false
 
 infrastructure_cidr_1 = "10.119.51.128/28"
 infrastructure_cidr_2 = "10.119.51.144/28"
