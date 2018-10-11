@@ -30,6 +30,7 @@ pks = false
 internetless = true
 global_lb = 0
 google_dns = false
+tcp_router_lb = false
 
 
 ssl_cert = <<SSL_CERT

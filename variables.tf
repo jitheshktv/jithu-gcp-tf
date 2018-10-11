@@ -222,9 +222,18 @@ variable "pks_services_cidr" {
   default     = "10.0.11.0/24"
 }
 
+/*****************************
+ * Load Balancer Options *
+ *****************************/
+
 variable "global_lb" {
   description = "Use global load balancers for CF instead regional load balancers"
   default     = 1
+}
+
+variable "tcp_router_lb" {
+  description = "Use load balancers for TCP routers"
+  default     = true
 }
 
 variable "google_dns" {
