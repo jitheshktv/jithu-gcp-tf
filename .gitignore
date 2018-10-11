@@ -3,3 +3,4 @@ service_account_key.tfvars
 *.tfstate.*
 lock.json
 .terraform
+ci
