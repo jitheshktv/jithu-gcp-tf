@@ -4,3 +4,4 @@ service_account_key.tfvars
 lock.json
 .terraform
 ci
+*backup
